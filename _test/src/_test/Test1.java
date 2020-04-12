@@ -9,7 +9,7 @@ public class Test1 {
     String a="路飞";
 	    
 	   int c=20;
-
+        int d=30;
 
     System.out.println(a);
     
