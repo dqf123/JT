@@ -9,8 +9,11 @@ public class Test1 {
     String a="路飞";
 	    
 	   int c=20;
+
     int d=30;
       int g =50;
+
+
     System.out.println(a);
     
     System.out.println(b);
