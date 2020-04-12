@@ -7,6 +7,9 @@ public class Test1 {
 	   int b =10;
 	
     String a="路飞";
+	    
+	   int c=20;
+
 
     System.out.println(a);
     
