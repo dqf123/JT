@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class Test {
 	
 	public static void main(String[] args) {
-		String phone="15852744001";
+		String phone="14612744001";
 		
 		isMobile(phone);
 	}
@@ -19,7 +19,7 @@ public class Test {
 		
 		boolean isMatch =false;
 		 
-		String regex= "^1[3|4|5|7|8][0-9]\\d{4,8}$";
+		String regex= "^[1](([3|5|8][\\d])|([4][4,5,6,7,8,9])|([6][2,5,6,7])|([7][^9])|([9][1,8,9]))[\\d]{8}$";
 		if(phone.length()!=11) {
 			System.out.println("手机号位数不对");
 		}else {
