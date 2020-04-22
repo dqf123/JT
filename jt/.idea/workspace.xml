@@ -1,62 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94cecb8-2361-4efa-924f-8673fbb68a01" name="Default Changelist" comment="" />
+    <list default="true" id="3252e590-e28a-4cb6-8f65-828b9077b68d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Admin\.m5\repository" />
-        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
         <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1atZoxAj6Ol2NjcmA4z4eu7NhgR" />
+  <component name="ProjectId" id="1atwmIzruN17fMDfyqgShIg3AFc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,28 +40,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jt.SpringBootRun" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e94cecb8-2361-4efa-924f-8673fbb68a01" name="Default Changelist" comment="" />
-      <created>1587557028905</created>
+      <changelist id="3252e590-e28a-4cb6-8f65-828b9077b68d" name="Default Changelist" comment="" />
+      <created>1587568355120</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587557028905</updated>
-      <workItem from="1587557031614" duration="341000" />
-      <workItem from="1587557415107" duration="908000" />
-      <workItem from="1587558344244" duration="1092000" />
+      <updated>1587568355120</updated>
+      <workItem from="1587568357710" duration="113000" />
     </task>
     <servers />
   </component>
@@ -103,9 +62,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
