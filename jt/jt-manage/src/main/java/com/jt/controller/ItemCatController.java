@@ -38,7 +38,8 @@ public class ItemCatController {
 	public List<EasyUITree>findItemCat(
 			@RequestParam(name="id",defaultValue = "0")Long parentId){
 		
-		return itemCatService.findItemCat(parentId);
+		//return itemCatService.findItemCat(parentId);
+		return itemCatService.findItemCatCache(parentId);
 	}
 	
 }

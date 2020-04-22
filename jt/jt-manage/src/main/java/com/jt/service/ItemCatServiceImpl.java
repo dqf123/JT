@@ -4,16 +4,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.jt.mapper.ItemCatMapper;
 import com.jt.pojo.ItemCat;
+import com.jt.util.ObjectMapperUtil;
 import com.jt.vo.EasyUITree;
+
+import redis.clients.jedis.Jedis;
+
+
 @Service
 public class ItemCatServiceImpl implements ItemCatService {
     @Autowired
     private ItemCatMapper itemCatMapper;
+    
+    //类似于懒加载.什么时候用,什么时候调.
+    @Autowired(required = false)
+    private Jedis jedis;
 	@Override
 	public ItemCat findItemCatById(Long ItemCatId) {
 		
@@ -40,6 +51,34 @@ public class ItemCatServiceImpl implements ItemCatService {
 		
 	List<ItemCat>cartList=itemCatMapper.selectList(queryWrapper);
 	return cartList;
+	}
+	
+	
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<EasyUITree> findItemCatCache(Long parentId) {
+		String key = "com.jt.service.ItemCatServiceImpl.findItemCatCache::"+parentId;
+		String value = jedis.get(key);
+		List<EasyUITree>treeList=new ArrayList<>();
+		Long start =System.currentTimeMillis();
+		if(StringUtils.isEmpty(value)) {
+			//用户第一次查询
+			treeList=findItemCat(parentId);
+			
+			if(treeList.size()>0) {
+				String json = ObjectMapperUtil.toJSON(treeList);
+				jedis.set(key, json);
+			}
+			Long end =System.currentTimeMillis();
+			System.out.println("查询数据库时间为:"+(end-start)+"毫秒");
+		}else {
+			//用户不是第一次查询
+			treeList=ObjectMapperUtil.toObject(value,treeList.getClass());
+			Long end =System.currentTimeMillis();
+			System.out.println("查询redis缓存时间为:"+(end-start)+"毫秒");
+		}
+		
+		return treeList;
 	}
 
 }
