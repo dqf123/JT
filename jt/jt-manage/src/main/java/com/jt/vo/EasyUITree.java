@@ -14,4 +14,6 @@ public class EasyUITree {
 	private Long id;
 	private String text;
 	private String state;	//状态信息
+
+
 }

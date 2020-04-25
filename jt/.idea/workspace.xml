@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BeansEndpointTabSettings">
+    <option name="showFiles" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdc30097-3275-4024-bd55-3fe95a4a2349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d2817728-b4de-4bd0-891f-99f0d9aa5d29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jt.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/jt-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/aop/SystemExeAOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/aop/SystemExeAOP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/BasePojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/BasePojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/ItemCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/ItemCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/ItemDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/ItemDesc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/vo/EasyUITable.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/vo/EasyUITable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/vo/SysResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/vo/SysResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/jt-manage.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/src/main/java/com/jt/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/src/main/java/com/jt/controller/ItemCatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/src/main/java/com/jt/service/ItemCatServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/src/main/java/com/jt/vo/EasyUITree.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/src/main/java/com/jt/vo/EasyUITree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/SpringBootRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/SpringBootRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/ItemCatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/PortController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/PortController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemCatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemCatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemDescMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemDescMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/FileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/FileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemCatServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/EasyUITree.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/EasyUITree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/ImageVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/ImageVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,44 +52,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Admin\.m5\repository" />
+        <option name="mavenHome" value="E:/maven3.52/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\maven3.52\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1awR4or9Jg74edO88C8T6tHwaAo" />
+  <component name="ProjectId" id="1awmWpJdvVSMvnIrkQF4T8gi5xf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.27712032" />
+    <property name="project.structure.side.proportion" value="0.5187377" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,19 +103,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="SpringBootRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jt-manage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jt.SpringBootRun" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fdc30097-3275-4024-bd55-3fe95a4a2349" name="Default Changelist" comment="" />
-      <created>1587644480311</created>
+      <changelist id="d2817728-b4de-4bd0-891f-99f0d9aa5d29" name="Default Changelist" comment="" />
+      <created>1587655064841</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587644480311</updated>
-      <workItem from="1587644482972" duration="251000" />
-      <workItem from="1587644842603" duration="79000" />
-      <workItem from="1587644935657" duration="302000" />
+      <updated>1587655064841</updated>
+      <workItem from="1587655068489" duration="1481000" />
+      <workItem from="1587789472369" duration="123000" />
+      <workItem from="1587789612726" duration="1089000" />
+      <workItem from="1587790724617" duration="204000" />
+      <workItem from="1587790948236" duration="322000" />
+      <workItem from="1587791297251" duration="1397000" />
+      <workItem from="1587793277659" duration="253000" />
+      <workItem from="1587793549208" duration="674000" />
     </task>
     <servers />
   </component>
